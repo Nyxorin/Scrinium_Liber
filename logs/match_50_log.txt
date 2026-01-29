@@ -1,0 +1,2622 @@
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+🏟️ Initializing Arena for 50-Round Contextual Match...
+
+🏟️ Opening the Arena...
+🦹 Saboteur: Loading Evil Brain (models/mistral-7b-instruct-v0.3.Q4_K_M.gguf)...
+🦹 Saboteur: Ready to destroy.
+🛡️ Connecting to Defender Agent...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🔥 Igniting The Analyst (SmartRule Inference)...
+
+🏟️ ARENA: CONTEXTUAL DUEL (50 Rounds)
+📄 Source: Real Text (~30 lines/round)
+🧠 Feedback Loop: ACTIVE (Bi-directional)
+⚖️ ARBITRE (Referee): ACTIVE (Knows Ground Truth)
+
+🔔 Duel 1/50
+🦹 Saboteur loaded corpus: 702 lines.
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 2/50
+🦹 Saboteur: ATTACK! Type=visual
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'visual' is effective.
+
+🔔 Duel 3/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 4/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 5/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 6/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 7/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 8/50
+🦹 Saboteur: ATTACK! Type=visual
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'visual' is effective.
+
+🔔 Duel 9/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 10/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 11/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 12/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 13/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 14/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 15/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 16/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 17/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 18/50
+🦹 Saboteur: ATTACK! Type=visual
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'visual' is effective.
+
+🔔 Duel 19/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 20/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 21/50
+🦹 Saboteur: ATTACK! Type=visual
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'visual' is effective.
+
+🔔 Duel 22/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 23/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 24/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 25/50
+🦹 Saboteur: ATTACK! Type=visual
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'visual' is effective.
+
+🔔 Duel 26/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 27/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 28/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 29/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 30/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 31/50
+🦹 Saboteur: ATTACK! Type=logic
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur RESTORED Damage.
+
+🔔 Duel 32/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 33/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 34/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 35/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 36/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 37/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 38/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 39/50
+🦹 Saboteur: ATTACK! Type=visual
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'visual' is effective.
+
+🔔 Duel 40/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 41/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 42/50
+🦹 Saboteur: ATTACK! Type=visual
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'visual' is effective.
+
+🔔 Duel 43/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 44/50
+🦹 Saboteur: ATTACK! Type=typo
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'typo' is effective.
+
+🔔 Duel 45/50
+🦹 Saboteur: ATTACK! Type=visual
+   ► Le Correcteur scanning...
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+[DefenderDaemon] Initializing SemanticCorrector (Redirecting noise to stderr)...
+llama_context: n_ctx_per_seq (2048) < n_ctx_train (32768) -- the full capacity of the model will not be utilized
+ggml_metal_init: skipping kernel_get_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_set_rows_bf16                     (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_c4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_1row              (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_f32_l4                (not supported)
+ggml_metal_init: skipping kernel_mul_mv_bf16_bf16                  (not supported)
+ggml_metal_init: skipping kernel_mul_mv_id_bf16_f32                (not supported)
+ggml_metal_init: skipping kernel_mul_mm_bf16_f32                   (not supported)
+ggml_metal_init: skipping kernel_mul_mm_id_bf16_f16                (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h64           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h80           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h96           (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h112          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h128          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h192          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk192_hv128   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_h256          (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_bf16_hk576_hv512   (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h64       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h96       (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h128      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h192      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk192_hv128 (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_h256      (not supported)
+ggml_metal_init: skipping kernel_flash_attn_ext_vec_bf16_hk576_hv512 (not supported)
+ggml_metal_init: skipping kernel_cpy_f32_bf16                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_f32                      (not supported)
+ggml_metal_init: skipping kernel_cpy_bf16_bf16                     (not supported)
+🛡️ Initialisation du Gardien (Dictionnaire)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+🛡️ Initialisation du NerGuardian (Protection Noms Propres)...
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+⚡ SmartRule Applicator active (1 règles chargées).
+🧠 Chargement du modèle LLM : models/mistral-7b-instruct-v0.3.Q4_K_M.gguf...
+✅ Modèle chargé avec succès.
+[DefenderDaemon] Ready. Waiting for requests.
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur RESTORED Damage.
+
+🔔 Duel 46/50
+🦹 Saboteur: ATTACK! Type=visual
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ⚠️ Le Correcteur SKIPPED (Safety/Missed).
+   👺 Saboteur LEARNS: 'visual' is effective.
+
+🔔 Duel 47/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 48/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 49/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🔔 Duel 50/50
+🦹 Saboteur: PASS (Control Check)
+   ► Le Correcteur scanning...
+❌ Error communicating with Defender Daemon: Expecting value: line 1 column 1 (char 0)
+🔄 Triggering Restart...
+🛡️ Launching Defender Daemon...
+✅ Defender Agent CONNECTED to Daemon.
+   ✅ Le Correcteur PASSED Control (No Hallucination).
+
+🏆 MATCH REPORT 🏆
+Saboteur: 12.0
+Correcteur: 38.0
+👉 VICTORY: The Immune System is robust.
+✓ Moteur linguistique chargé: Pyspellchecker (fr)
+✅ Whitelist chargée: 12 mots.
+
+🧠 Antibody Learning System Active...
+🧠 Learning Complete. New Antibodies: 0. New Whitelist: 0

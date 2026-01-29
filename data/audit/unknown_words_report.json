@@ -1,0 +1,806 @@
+{
+  "epub": "livres_corriges/SAS_047_V7_FINAL.epub",
+  "total_unknown_unique": 1281,
+  "top_200": [
+    {
+      "word": "Abdi",
+      "count": 188
+    },
+    {
+      "word": "Newton",
+      "count": 94
+    },
+    {
+      "word": "Abshir",
+      "count": 88
+    },
+    {
+      "word": "Irving",
+      "count": 78
+    },
+    {
+      "word": "Ali",
+      "count": 64
+    },
+    {
+      "word": "Somalien",
+      "count": 62
+    },
+    {
+      "word": "Rover",
+      "count": 60
+    },
+    {
+      "word": "Somaliens",
+      "count": 49
+    },
+    {
+      "word": "jusqu",
+      "count": 47
+    },
+    {
+      "word": "somalien",
+      "count": 36
+    },
+    {
+      "word": "Lambrecht",
+      "count": 34
+    },
+    {
+      "word": "Gorki",
+      "count": 28
+    },
+    {
+      "word": "Reynolds",
+      "count": 26
+    },
+    {
+      "word": "Helmut",
+      "count": 25
+    },
+    {
+      "word": "Pavel",
+      "count": 21
+    },
+    {
+      "word": "Jubba",
+      "count": 20
+    },
+    {
+      "word": "Buick",
+      "count": 17
+    },
+    {
+      "word": "Alexandra",
+      "count": 17
+    },
+    {
+      "word": "jeep",
+      "count": 16
+    },
+    {
+      "word": "Hadj",
+      "count": 16
+    },
+    {
+      "word": "Marlin",
+      "count": 15
+    },
+    {
+      "word": "Kathleen",
+      "count": 14
+    },
+    {
+      "word": "kat",
+      "count": 12
+    },
+    {
+      "word": "Saôda",
+      "count": 12
+    },
+    {
+      "word": "desk",
+      "count": 11
+    },
+    {
+      "word": "Allah",
+      "count": 11
+    },
+    {
+      "word": "Berbera",
+      "count": 10
+    },
+    {
+      "word": "Paul",
+      "count": 10
+    },
+    {
+      "word": "Tornetta",
+      "count": 10
+    },
+    {
+      "word": "Eh",
+      "count": 10
+    },
+    {
+      "word": "Ahmed",
+      "count": 10
+    },
+    {
+      "word": "verde",
+      "count": 9
+    },
+    {
+      "word": "del",
+      "count": 9
+    },
+    {
+      "word": "Sir",
+      "count": 9
+    },
+    {
+      "word": "Washington",
+      "count": 9
+    },
+    {
+      "word": "quelqu",
+      "count": 9
+    },
+    {
+      "word": "Toyota",
+      "count": 9
+    },
+    {
+      "word": "grommela",
+      "count": 8
+    },
+    {
+      "word": "Mohammed",
+      "count": 8
+    },
+    {
+      "word": "Croce",
+      "count": 8
+    },
+    {
+      "word": "somaliens",
+      "count": 8
+    },
+    {
+      "word": "it",
+      "count": 8
+    },
+    {
+      "word": "State",
+      "count": 8
+    },
+    {
+      "word": "bafto",
+      "count": 8
+    },
+    {
+      "word": "re",
+      "count": 8
+    },
+    {
+      "word": "ent",
+      "count": 8
+    },
+    {
+      "word": "accroupit",
+      "count": 7
+    },
+    {
+      "word": "somalienne",
+      "count": 7
+    },
+    {
+      "word": "Sul",
+      "count": 7
+    },
+    {
+      "word": "Cadillac",
+      "count": 7
+    },
+    {
+      "word": "Department",
+      "count": 7
+    },
+    {
+      "word": "Somalis",
+      "count": 7
+    },
+    {
+      "word": "Hassan",
+      "count": 7
+    },
+    {
+      "word": "alko",
+      "count": 7
+    },
+    {
+      "word": "teuf",
+      "count": 7
+    },
+    {
+      "word": "vestiti",
+      "count": 6
+    },
+    {
+      "word": "Lorsqu",
+      "count": 6
+    },
+    {
+      "word": "OM",
+      "count": 6
+    },
+    {
+      "word": "Waddada",
+      "count": 6
+    },
+    {
+      "word": "Somalya",
+      "count": 6
+    },
+    {
+      "word": "Cubains",
+      "count": 6
+    },
+    {
+      "word": "Beach",
+      "count": 5
+    },
+    {
+      "word": "somaliennes",
+      "count": 5
+    },
+    {
+      "word": "Lido",
+      "count": 5
+    },
+    {
+      "word": "Security",
+      "count": 5
+    },
+    {
+      "word": "Mr",
+      "count": 5
+    },
+    {
+      "word": "blue",
+      "count": 5
+    },
+    {
+      "word": "Taaleh",
+      "count": 5
+    },
+    {
+      "word": "is",
+      "count": 5
+    },
+    {
+      "word": "David",
+      "count": 5
+    },
+    {
+      "word": "rez",
+      "count": 5
+    },
+    {
+      "word": "NS",
+      "count": 5
+    },
+    {
+      "word": "Topolino",
+      "count": 5
+    },
+    {
+      "word": "LandRover",
+      "count": 5
+    },
+    {
+      "word": "res",
+      "count": 5
+    },
+    {
+      "word": "Mauser",
+      "count": 5
+    },
+    {
+      "word": "somali",
+      "count": 5
+    },
+    {
+      "word": "Omar",
+      "count": 5
+    },
+    {
+      "word": "dun",
+      "count": 4
+    },
+    {
+      "word": "Kate",
+      "count": 4
+    },
+    {
+      "word": "Linda",
+      "count": 4
+    },
+    {
+      "word": "in",
+      "count": 4
+    },
+    {
+      "word": "God",
+      "count": 4
+    },
+    {
+      "word": "Nairobi",
+      "count": 4
+    },
+    {
+      "word": "Langley",
+      "count": 4
+    },
+    {
+      "word": "Amérique",
+      "count": 4
+    },
+    {
+      "word": "Deputy",
+      "count": 4
+    },
+    {
+      "word": "Liezen",
+      "count": 4
+    },
+    {
+      "word": "dernanda",
+      "count": 4
+    },
+    {
+      "word": "Wise",
+      "count": 4
+    },
+    {
+      "word": "OK",
+      "count": 4
+    },
+    {
+      "word": "Ihran",
+      "count": 4
+    },
+    {
+      "word": "Kalachnikov",
+      "count": 4
+    },
+    {
+      "word": "Cest",
+      "count": 4
+    },
+    {
+      "word": "ue",
+      "count": 4
+    },
+    {
+      "word": "ébroua",
+      "count": 4
+    },
+    {
+      "word": "Mecque",
+      "count": 4
+    },
+    {
+      "word": "Patrick",
+      "count": 3
+    },
+    {
+      "word": "Martini",
+      "count": 3
+    },
+    {
+      "word": "Bianco",
+      "count": 3
+    },
+    {
+      "word": "Somaliennes",
+      "count": 3
+    },
+    {
+      "word": "Smith",
+      "count": 3
+    },
+    {
+      "word": "Wesson",
+      "count": 3
+    },
+    {
+      "word": "Samir",
+      "count": 3
+    },
+    {
+      "word": "Samantar",
+      "count": 3
+    },
+    {
+      "word": "Agency",
+      "count": 3
+    },
+    {
+      "word": "Charles",
+      "count": 3
+    },
+    {
+      "word": "Leyland",
+      "count": 3
+    },
+    {
+      "word": "té",
+      "count": 3
+    },
+    {
+      "word": "klaxon",
+      "count": 3
+    },
+    {
+      "word": "Officer",
+      "count": 3
+    },
+    {
+      "word": "4e",
+      "count": 3
+    },
+    {
+      "word": "Company",
+      "count": 3
+    },
+    {
+      "word": "sombrement",
+      "count": 3
+    },
+    {
+      "word": "barbouzes",
+      "count": 3
+    },
+    {
+      "word": "Jusqu",
+      "count": 3
+    },
+    {
+      "word": "Somalo",
+      "count": 3
+    },
+    {
+      "word": "Barjuni",
+      "count": 3
+    },
+    {
+      "word": "UAméricain",
+      "count": 3
+    },
+    {
+      "word": "accroupi",
+      "count": 3
+    },
+    {
+      "word": "lorsqu",
+      "count": 3
+    },
+    {
+      "word": "shillings",
+      "count": 3
+    },
+    {
+      "word": "putes",
+      "count": 3
+    },
+    {
+      "word": "ps",
+      "count": 3
+    },
+    {
+      "word": "Uodeur",
+      "count": 3
+    },
+    {
+      "word": "latérite",
+      "count": 3
+    },
+    {
+      "word": "Zagora",
+      "count": 3
+    },
+    {
+      "word": "pêcher",
+      "count": 3
+    },
+    {
+      "word": "nt",
+      "count": 3
+    },
+    {
+      "word": "lement",
+      "count": 3
+    },
+    {
+      "word": "Tokarev",
+      "count": 3
+    },
+    {
+      "word": "clic",
+      "count": 2
+    },
+    {
+      "word": "tète",
+      "count": 2
+    },
+    {
+      "word": "Emilio",
+      "count": 2
+    },
+    {
+      "word": "Cerruti",
+      "count": 2
+    },
+    {
+      "word": "Etats",
+      "count": 2
+    },
+    {
+      "word": "ultra",
+      "count": 2
+    },
+    {
+      "word": "Tricia",
+      "count": 2
+    },
+    {
+      "word": "Savoia",
+      "count": 2
+    },
+    {
+      "word": "Savola",
+      "count": 2
+    },
+    {
+      "word": "com",
+      "count": 2
+    },
+    {
+      "word": "Stale",
+      "count": 2
+    },
+    {
+      "word": "Gezira",
+      "count": 2
+    },
+    {
+      "word": "Uune",
+      "count": 2
+    },
+    {
+      "word": "the",
+      "count": 2
+    },
+    {
+      "word": "Help",
+      "count": 2
+    },
+    {
+      "word": "My",
+      "count": 2
+    },
+    {
+      "word": "cauteleux",
+      "count": 2
+    },
+    {
+      "word": "Rothman",
+      "count": 2
+    },
+    {
+      "word": "up",
+      "count": 2
+    },
+    {
+      "word": "Somalia",
+      "count": 2
+    },
+    {
+      "word": "you",
+      "count": 2
+    },
+    {
+      "word": "week",
+      "count": 2
+    },
+    {
+      "word": "end",
+      "count": 2
+    },
+    {
+      "word": "4ues",
+      "count": 2
+    },
+    {
+      "word": "Navy",
+      "count": 2
+    },
+    {
+      "word": "Sornalien",
+      "count": 2
+    },
+    {
+      "word": "fl",
+      "count": 2
+    },
+    {
+      "word": "Hargeisha",
+      "count": 2
+    },
+    {
+      "word": "New",
+      "count": 2
+    },
+    {
+      "word": "Lénine",
+      "count": 2
+    },
+    {
+      "word": "Entebbe",
+      "count": 2
+    },
+    {
+      "word": "Rome",
+      "count": 2
+    },
+    {
+      "word": "ambiguÎ",
+      "count": 2
+    },
+    {
+      "word": "Elko",
+      "count": 2
+    },
+    {
+      "word": "Krisantern",
+      "count": 2
+    },
+    {
+      "word": "fran",
+      "count": 2
+    },
+    {
+      "word": "Airlines",
+      "count": 2
+    },
+    {
+      "word": "Technical",
+      "count": 2
+    },
+    {
+      "word": "NordCoréens",
+      "count": 2
+    },
+    {
+      "word": "Berlin",
+      "count": 2
+    },
+    {
+      "word": "Zeit",
+      "count": 2
+    },
+    {
+      "word": "Bild",
+      "count": 2
+    },
+    {
+      "word": "Allemagne",
+      "count": 2
+    },
+    {
+      "word": "Gaston",
+      "count": 2
+    },
+    {
+      "word": "Lagrange",
+      "count": 2
+    },
+    {
+      "word": "Xiddigta",
+      "count": 2
+    },
+    {
+      "word": "Oktobaar",
+      "count": 2
+    },
+    {
+      "word": "West",
+      "count": 2
+    },
+    {
+      "word": "Sornalo",
+      "count": 2
+    },
+    {
+      "word": "Intelligenoe",
+      "count": 2
+    },
+    {
+      "word": "Grace",
+      "count": 2
+    },
+    {
+      "word": "Somalienne",
+      "count": 2
+    },
+    {
+      "word": "Uinconnue",
+      "count": 2
+    },
+    {
+      "word": "yéménite",
+      "count": 2
+    },
+    {
+      "word": "pulpeuse",
+      "count": 2
+    },
+    {
+      "word": "Lam",
+      "count": 2
+    },
+    {
+      "word": "Fiat",
+      "count": 2
+    },
+    {
+      "word": "barbouze",
+      "count": 2
+    },
+    {
+      "word": "crochant",
+      "count": 2
+    },
+    {
+      "word": "Evidemment",
+      "count": 2
+    },
+    {
+      "word": "seulenient",
+      "count": 2
+    },
+    {
+      "word": "mâchonnait",
+      "count": 2
+    },
+    {
+      "word": "XVI",
+      "count": 2
+    },
+    {
+      "word": "Volkswagen",
+      "count": 2
+    },
+    {
+      "word": "Malke",
+      "count": 2
+    },
+    {
+      "word": "Coran",
+      "count": 2
+    },
+    {
+      "word": "hia",
+      "count": 2
+    },
+    {
+      "word": "remar",
+      "count": 2
+    },
+    {
+      "word": "tran",
+      "count": 2
+    }
+  ]
+}

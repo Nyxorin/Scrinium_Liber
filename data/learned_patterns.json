@@ -1,0 +1,121 @@
+{
+  "validated": {
+    "fi": {
+      "corrected": "il",
+      "count": 4,
+      "quality_score": 1.8,
+      "first_seen": 1761576743.977023,
+      "last_seen": 1761576743.9771242,
+      "promoted_at": 1761576743.977108
+    },
+    "OŸ": {
+      "corrected": "où",
+      "count": 3,
+      "quality_score": 1.8,
+      "first_seen": 1761576743.9768572,
+      "last_seen": 1761576743.977728,
+      "promoted_at": 1761576743.9777331
+    },
+    "12 ville": {
+      "corrected": "La ville",
+      "count": 3,
+      "quality_score": 1.3,
+      "first_seen": 1761576743.977151,
+      "last_seen": 1761576743.977761,
+      "promoted_at": 1761576743.977767
+    },
+    "poir": {
+      "corrected": "pour",
+      "count": 3,
+      "quality_score": 1.8,
+      "first_seen": 1761580765.4489658,
+      "last_seen": 1761581128.342701,
+      "promoted_at": 1761581128.342763
+    },
+    "qe": {
+      "corrected": "de",
+      "count": 3,
+      "quality_score": 1.8,
+      "first_seen": 1761580765.4498088,
+      "last_seen": 1761581128.343275,
+      "promoted_at": 1761581128.3432808
+    },
+    "lm": {
+      "corrected": "les",
+      "count": 3,
+      "quality_score": 1.8,
+      "first_seen": 1761581031.254525,
+      "last_seen": 1761581128.4836311,
+      "promoted_at": 1761581128.483639
+    }
+  },
+  "quarantine": {},
+  "blacklist": {
+    "l@": {
+      "attempted_correction": "l'",
+      "reason": "megalex_invalide + syntaxe_valide",
+      "score": -0.7,
+      "timestamp": 1761576743.976865
+    },
+    "So %,hai": {
+      "attempted_correction": "Soyhai",
+      "reason": "megalex_invalide + syntaxe_valide",
+      "score": -0.7,
+      "timestamp": 1761576743.977658
+    },
+    "ilt": {
+      "attempted_correction": "fit",
+      "reason": "megalex_invalide + syntaxe_valide",
+      "score": -0.7,
+      "timestamp": 1761580765.448951
+    },
+    "illle": {
+      "attempted_correction": "fille",
+      "reason": "megalex_invalide + syntaxe_valide",
+      "score": -0.7,
+      "timestamp": 1761580765.448978
+    },
+    "Yeux": {
+      "attempted_correction": "yeux",
+      "reason": "megalex_invalide + syntaxe_valide",
+      "score": -0.7,
+      "timestamp": 1761580765.4489868
+    },
+    "entànts": {
+      "attempted_correction": "enfants",
+      "reason": "megalex_invalide + syntaxe_valide",
+      "score": -0.7,
+      "timestamp": 1761580765.448998
+    },
+    "chargé>": {
+      "attempted_correction": "chargé",
+      "reason": "megalex_invalide + syntaxe_valide",
+      "score": -0.7,
+      "timestamp": 1761580765.449006
+    },
+    "sornalo": {
+      "attempted_correction": "somalo",
+      "reason": "megalex_invalide + syntaxe_valide",
+      "score": -0.7,
+      "timestamp": 1761580765.449999
+    },
+    "n'esse": {
+      "attempted_correction": "messe",
+      "reason": "megalex_invalide + syntaxe_valide",
+      "score": -0.7,
+      "timestamp": 1761581031.254535
+    },
+    "p@oximité": {
+      "attempted_correction": "proximité",
+      "reason": "megalex_invalide + syntaxe_valide",
+      "score": -0.7,
+      "timestamp": 1761581325.4021409
+    }
+  },
+  "stats": {
+    "total_books_processed": 17,
+    "total_corrections_applied": 25862,
+    "total_corrections_learned": 6,
+    "last_updated": "2025-10-28 08:18:17"
+  }
+}

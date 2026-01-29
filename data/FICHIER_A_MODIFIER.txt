@@ -1,0 +1,51 @@
+================================================================================
+ FICHIER À MODIFIER POUR METTRE À JOUR LA BASE DE DONNÉES
+================================================================================
+
+📄 FICHIER PRINCIPAL :
+
+    ebook_organizer/validation_humaine.csv
+
+
+📍 CHEMIN COMPLET :
+
+    /Users/parisis/kDrive/Python Projets/Scrinium_Liber/ebook_organizer/validation_humaine.csv
+
+
+🚀 POUR OUVRIR :
+
+    Double-cliquer sur le fichier
+    OU
+    Depuis le Terminal : open ebook_organizer/validation_humaine.csv
+
+
+✏️ POUR MODIFIER AVEC NUMBERS :
+
+    1. Ouvrir validation_humaine.csv (Numbers s'ouvre automatiquement)
+    2. Faire vos modifications
+    3. Sauvegarder (⌘S)
+    4. ⚠️  IMPORTANT : Exporter en CSV
+       - Fichier → Exporter vers → CSV
+       - Séparateur : Point-virgule
+       - Encodage : UTF-8
+       - Remplacer validation_humaine.csv
+
+
+⚠️  N'OUBLIEZ PAS L'ÉTAPE 4 (EXPORT CSV) !
+
+    Sans cette étape, vos modifications ne seront pas prises en compte.
+
+
+📖 GUIDE COMPLET :
+
+    GUIDE_MODIFICATION_BASE_DONNEES.md
+
+
+📊 STATISTIQUES :
+
+    - 16 654 livres
+    - Dernière mise à jour : 2025-11-12
+    - Qualité : 100%
+
+
+================================================================================

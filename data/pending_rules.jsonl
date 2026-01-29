@@ -1,0 +1,1 @@
+{"pattern": "\\b1'([a-z]+)", "replacement": "l'\\1", "example_trap": "1'homme", "example_fix": "l'homme"}

@@ -1,0 +1,128 @@
+{
+  "description": "Dictionnaire extensible de caractères OCR mal reconnus",
+  "version": "1.0",
+  "caracteres_speciaux": {
+    "accents_circonflexes": {
+      "˚": "û",
+      "d˚": "dû",
+      "ˆ": "ê",
+      "ô": "ô"
+    },
+    "accents_graves_aigus": {
+      "Ú": "é",
+      "…": "é",
+      "Ë": "é",
+      "Â": "è",
+      "ý": "à",
+      "‚": "â"
+    },
+    "cedilles_et_autres": {
+      "¸": "ç",
+      "˘": "ù"
+    },
+    "o_speciaux": {
+      "Ø": "ô",
+      "Ô": "ô"
+    },
+    "i_speciaux": {
+      "Ï": "î"
+    },
+    "parentheses_mal_reconnues": {
+      ")a": "la",
+      ")e": "le",
+      ")es": "les",
+      ")'": "l'",
+      "(a": "la",
+      "(e": "le"
+    },
+    "ligatures": {
+      "ﬁ": "fi",
+      "ﬂ": "fl",
+      "œ": "œ",
+      "Œ": "Œ"
+    },
+    "guillemets_et_apostrophes": {
+      "« ": "« ",
+      " »": " »",
+      "'": "'",
+      "'": "'"
+    }
+  },
+  "mots_frequents_mal_reconnus": {
+    "fis": "ils",
+    "avai": "avait",
+    "avaient": "avaient",
+    "étai": "était",
+    "étaient": "étaient",
+    "rnais": "mais",
+    "inais": "mais",
+    "tems": "temps",
+    "terns": "temps",
+    "cornme": "comme",
+    "cornrne": "comme",
+    "suis": "suis",
+    "suís": "suis",
+    "clans": "dans",
+    "claus": "dans",
+    "cfans": "dans",
+    "pouf": "pour",
+    "poux": "pour",
+    "cieux": "deux",
+    "cleux": "deux",
+    "vieux": "vieux",
+    "voíx": "voix",
+    "voir": "voir",
+    "voír": "voir"
+  },
+  "patterns_regex": {
+    "description": "Patterns regex pour corrections contextuelles",
+    "patterns": [
+      {
+        "nom": "mots_colles_que",
+        "pattern": "quequelques",
+        "remplacement": "que quelques"
+      },
+      {
+        "nom": "espaces_multiples",
+        "pattern": " {2,}",
+        "remplacement": " "
+      },
+      {
+        "nom": "parenthese_fermante_l",
+        "pattern": "\\)a\\b",
+        "remplacement": "la"
+      },
+      {
+        "nom": "quelque_s",
+        "pattern": "quelque s\\b",
+        "remplacement": "quelques"
+      },
+      {
+        "nom": "cesures_fin_ligne",
+        "pattern": "(\\w+)-\\s*\\n\\s*(\\w+)",
+        "remplacement": "\\1\\2"
+      },
+      {
+        "nom": "tirets_doubles",
+        "pattern": "--",
+        "remplacement": "—"
+      },
+      {
+        "nom": "espace_avant_ponctuation",
+        "pattern": " +([,.:;!?])",
+        "remplacement": "\\1"
+      },
+      {
+        "nom": "numero_page_isole",
+        "pattern": "\\n\\d+\\s+([A-ZÉÈÊ])",
+        "remplacement": "\\n\\1"
+      }
+    ]
+  },
+  "notes": [
+    "Ce dictionnaire peut être étendu selon les erreurs OCR spécifiques rencontrées",
+    "Les caractères sont traités dans l'ordre de définition",
+    "Les patterns regex sont appliqués après les remplacements de caractères",
+    "Personnalisez selon la langue et la qualité OCR de vos documents"
+  ]
+}

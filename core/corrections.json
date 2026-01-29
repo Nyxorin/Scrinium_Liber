@@ -1,0 +1,294 @@
+{
+    "simple_replacements": [
+        {
+            "old": "]",
+            "new": "l",
+            "description": "] → l"
+        },
+        {
+            "old": "@",
+            "new": "'",
+            "description": "@ → '"
+        },
+        {
+            "old": "*",
+            "new": "'",
+            "description": "* → '"
+        },
+        {
+            "old": "`",
+            "new": "'",
+            "description": "` → '"
+        },
+        {
+            "old": "<<",
+            "new": "«",
+            "description": "Guillemet ouvrant"
+        },
+        {
+            "old": ">>",
+            "new": "»",
+            "description": "Guillemet fermant"
+        },
+        {
+            "old": "--",
+            "new": "—",
+            "description": "Double tiret → em-dash"
+        }
+    ],
+    "regex_replacements": [
+        {
+            "pattern": "MISSION IMPOSSIBLE EN SO[mM][aA]LIE\\s*\\d*",
+            "replacement": "",
+            "description": "Suppression titre MISSION IMPOSSIBLE"
+        },
+        {
+            "pattern": "([a-zàâäéèêëïîôöùûüç,;])[A-ZÀÂÄÉÈÊËÏÎÔÖÙÛÜŸÇ]{2}[A-ZÀÂÄÉÈÊËÏÎÔÖÙÛÜŸÇ\\s]{15,60}([a-zàâäéèêëïîôöùûüç])",
+            "replacement": "\\1 \\2",
+            "description": "Suppression titre collé au texte"
+        },
+        {
+            "pattern": "([a-zàâäéèêëïîôöùûüç])[ \\t]*\\d{1,3}[ \\t]+([A-ZÀÂÄÉÈÊËÏÎÔÖÙÛÜŸÇ][a-z])",
+            "replacement": "\\1 \\2",
+            "description": "Suppression numéro page entre mots"
+        },
+        {
+            "pattern": "\\n[A-ZÀÂÄÉÈÊËÏÎÔÖÙÛÜŸÇ]{2}[A-ZÀÂÄÉÈÊËÏÎÔÖÙÛÜŸÇ\\s]{15,60}\\n",
+            "replacement": "\\n",
+            "description": "Suppression titre début ligne"
+        },
+        {
+            "pattern": "([a-zàâäéèêëïîôöùûüç])7([a-zàâäéèêëïîôöùûüç])",
+            "replacement": "\\1'\\2",
+            "description": "7→' entre lettres minuscules"
+        },
+        {
+            "pattern": "([A-Z])7([a-zàâäéèêëïîôöùûüç])",
+            "replacement": "\\1'\\2",
+            "description": "7→' après majuscule"
+        },
+        {
+            "pattern": "\\bmil\\s+icien",
+            "replacement": "milicien",
+            "description": "mil icien→milicien"
+        },
+        {
+            "pattern": "\\bappi\\s+endre",
+            "replacement": "apprendre",
+            "description": "appi endre→apprendre"
+        },
+        {
+            "pattern": "chaufŒ",
+            "replacement": "chauff",
+            "description": "chaufŒ→chauff"
+        },
+        {
+            "pattern": "oŸ",
+            "replacement": "où",
+            "description": "oŸ→où"
+        },
+        {
+            "pattern": "Ÿ([nml])",
+            "replacement": "M\\1",
+            "description": "Ÿn→Mn"
+        },
+        {
+            "pattern": "Ÿ",
+            "replacement": "M",
+            "description": "Ÿ→M général"
+        },
+        {
+            "pattern": "Œ(?![a-zàâäéèêëïîôöùûüç])",
+            "replacement": "M",
+            "description": "Œ isolé→M"
+        },
+        {
+            "pattern": "([A-Z])Œ",
+            "replacement": "\\1M",
+            "description": "XŒ→XM"
+        },
+        {
+            "pattern": "\\b1es\\b",
+            "replacement": "les",
+            "description": "1es→les"
+        },
+        {
+            "pattern": "\\b1e\\b",
+            "replacement": "le",
+            "description": "1e→le"
+        },
+        {
+            "pattern": "\\b1a\\b",
+            "replacement": "la",
+            "description": "1a→la"
+        },
+        {
+            "pattern": "\\b1l\\b",
+            "replacement": "il",
+            "description": "1l→il"
+        },
+        {
+            "pattern": "([a-zàâäéèêëïîôöùûüç])0([a-zàâäéèêëïîôöùûüç])",
+            "replacement": "\\1o\\2",
+            "description": "0→o entre lettres"
+        },
+        {
+            "pattern": "([a-zàâäéèêëïîôöùûüç])1([a-zàâäéèêëïîôöùûüç])",
+            "replacement": "\\1l\\2",
+            "description": "1→l entre lettres"
+        },
+        {
+            "pattern": "œr",
+            "replacement": "or",
+            "description": "œr→or"
+        },
+        {
+            "pattern": "\\bfi\\s",
+            "replacement": "il ",
+            "description": "fi→il en début de mot"
+        },
+        {
+            "pattern": "\\bfît-",
+            "replacement": "fut-",
+            "description": "fît-→fut-"
+        },
+        {
+            "pattern": "_",
+            "replacement": "",
+            "description": "Suppression underscore"
+        },
+        {
+            "pattern": "([a-zàâäéèêëïîôöùûüç])\\.([A-Z])",
+            "replacement": "\\1. \\2",
+            "description": "Espace après point"
+        },
+        {
+            "pattern": "\\blm\\b",
+            "replacement": "les",
+            "description": "lm→les"
+        },
+        {
+            "pattern": "\\bim\\b",
+            "replacement": "il",
+            "description": "im→il (si contexte verbe)"
+        },
+        {
+            "pattern": "\\bp'oximité",
+            "replacement": "proximité",
+            "description": "p'oximité→proximité"
+        },
+        {
+            "pattern": "([a-zàâäéèêëïîôöùûüç])4([a-zàâäéèêëïîôöùûüç])",
+            "replacement": "\\1a\\2",
+            "description": "4→a dans mot"
+        },
+        {
+            "pattern": "([a-zàâäéèêëïîôöùûüç])8([a-zàâäéèêëïîôöùûüç])",
+            "replacement": "\\1B\\2",
+            "description": "8→B dans mot"
+        },
+        {
+            "pattern": "M15SION",
+            "replacement": "MISSION",
+            "description": "M15SION→MISSION"
+        },
+        {
+            "pattern": "X1fi",
+            "replacement": "MI",
+            "description": "X1fi→MI"
+        },
+        {
+            "pattern": "([a-zàâäéèêëïîôöùûüç])7([a-zàâäéèêëïîôöùûüç])",
+            "replacement": "\\1t\\2",
+            "description": "7→t dans mot"
+        },
+        {
+            "pattern": "([a-zàâäéèêëïîôöùûüç])6([a-zàâäéèêëïîôöùûüç])",
+            "replacement": "\\1e\\2",
+            "description": "6→e dans mot"
+        },
+        {
+            "pattern": "([a-zàâäéèêëïîôöùûüç])5([a-zàâäéèêëïîôöùûüç])",
+            "replacement": "\\1s\\2",
+            "description": "5→s dans mot"
+        },
+        {
+            "pattern": "\\b1([a-zàâäéèêëïîôöùûüç]{2,})",
+            "replacement": "H\\1",
+            "description": "1xxx→Hxxx (début mot)"
+        },
+        {
+            "pattern": "\\b11([a-zàâäéèêëïîôöùûüç]{2,})",
+            "replacement": "H\\1",
+            "description": "11xxx→Hxxx"
+        },
+        {
+            "pattern": "\\b8([a-zàâäéèêëïîôöùûüç]{2,})",
+            "replacement": "B\\1",
+            "description": "8xxx→Bxxx"
+        },
+        {
+            "pattern": "([a-zàâäéèêëïîôöùûüç])%([a-zàâäéèêëïîôöùûüç])",
+            "replacement": "\\1s\\2",
+            "description": "%→s dans mot"
+        },
+        {
+            "pattern": "%",
+            "replacement": "s",
+            "description": "%→s général"
+        },
+        {
+            "pattern": "n'avoir\\s+rien",
+            "replacement": "n'avoir rien",
+            "description": "normalise n'avoir"
+        },
+        {
+            "pattern": "\\s+:",
+            "replacement": ":",
+            "description": "Supprime espace avant :"
+        },
+        {
+            "pattern": "\\b0\\b",
+            "replacement": "o",
+            "description": "0 isolé→o"
+        },
+        {
+            "pattern": "([.!?,:;])([A-ZÀÂÄÉÈÊËÏÎÔÖÙÛÜŸÇ])",
+            "replacement": "\\1 \\2",
+            "description": "Espace après ponctuation"
+        },
+        {
+            "pattern": " {2,}",
+            "replacement": " ",
+            "description": "Espaces multiples"
+        },
+        {
+            "pattern": "\\n{3,}",
+            "replacement": "\\n\\n",
+            "description": "Sauts de ligne multiples"
+        },
+        {
+            "pattern": "(\\w+)-\\s*\\n\\s*(\\w+)",
+            "replacement": "\\1\\2",
+            "description": "Césure en fin de ligne"
+        }
+    ],
+    "contraction_prefixes": [
+        "d",
+        "n",
+        "l",
+        "qu",
+        "c",
+        "j",
+        "m",
+        "s",
+        "t"
+    ],
+    "contraction_suspect_chars": [
+        "'",
+        "`",
+        "@",
+        "*",
+        "7"
+    ]
+}

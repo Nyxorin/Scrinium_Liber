@@ -1,0 +1,101 @@
+ID;Fichier;Titre_actuel;Auteur_actuel;ACTION;Score;Confiance;Règles;Titre_corrigé;Auteur_corrigé
+→;INSTRUCTIONS: Remplissez la colonne ACTION;"Laissez VIDE ou ""OK"" pour INVERSER";"Mettez ""X"" ou ""NON"" pour NE PAS inverser";← ICI;→;Prob ~88%;→;→;→
+1;Épervier, L' - Henri Bosco.epub;Épervier, L';Bosco, Henri;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Bosco, Henri;Épervier, L'
+2;Sade mon prochain, précédé de _Le Philosophe scélérat_ - Pierre Klossowski.epub;Klossowski, Pierre;Sade mon prochain, précédé de _Le Philosophe scélérat_;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Sade mon prochain, précédé de _Le Philosophe scélérat_;Klossowski, Pierre
+3;Bellemare,Pierre [Crimes de sang-1] Merci, Ruth !... 40 histoires (.) french.zzz.epub;Merci, Ruth !... 40 histoires (.);Bellemare,Pierre;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Bellemare,Pierre;Merci, Ruth !... 40 histoires (.)
+4;Greenwood,Ed [Elminster-1] Elminster, la jeunesse d'un mage (1994) Fantasy .Z.epub;Elminster, T1 : La Jeunesse d'un mage;Greenwood, Ed;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Greenwood, Ed;Elminster, T1 : La Jeunesse d'un mage
+5;Enfant, L' - Jules Vallès.epub;Enfant, L';Vallès, Jules;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Vallès, Jules;Enfant, L'
+6;Sympathisant, Le - Nguyen, Viet Thanh.epub;Sympathisant, Le;Nguyen, Viet Thanh;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Nguyen, Viet Thanh;Sympathisant, Le
+7;Jeremiah Johnson, le mangeur de foie - Thorp, Raymond W. & Bunker, Robert.epub;Thorp, Raymond W. & Bunker, Robert;Jeremiah Johnson, le mangeur de foie;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Jeremiah Johnson, le mangeur de foie;Thorp, Raymond W. & Bunker, Robert
+8;Chutes, Les - Oates, Joyce Carol.epub;Chutes, Les;Oates, Joyce Carol;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Oates, Joyce Carol;Chutes, Les
+9;Cosmographie_ comprendre les mouvements du soleil, de la lune et des planètes - Denis Savoie.epub;Savoie, Denis;Cosmographie_ comprendre les mouvements du soleil, de la lune et des planètes;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Cosmographie_ comprendre les mouvements du soleil, de la lune et des planètes;Savoie, Denis
+10;légende des quatre soldats (Tome 3) - Le Reclus, La - Elizabeth Hoyt.epub;Elizabeth Hoyt;Le Reclus, La;;80;PROBABLE;Auteur n'est pas au format standard | Article défini en fin d'AUTEUR;Le Reclus, La;Elizabeth Hoyt
+11;Allô, Hercule Poirot - Christie,Agatha.epub;Allô, Hercule Poirot;Christie,Agatha;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Christie,Agatha;Allô, Hercule Poirot
+12;Le Rouge,Gustave [] Todd Marvel, détective milliardaire - Tome 1 (1923) french.zzz.epub;Le Rouge,Gustave [] Todd Marvel, détective milliardaire;french.zzz, Tome 1;;80;PROBABLE;Chiffres dans AUTEUR | Mots-clés de titre dans AUTEUR;french.zzz, Tome 1;Le Rouge,Gustave [] Todd Marvel, détective milliardaire
+13;MEXICAINE, LA - Marie Bonaparte Wyse.epub;Wyse, Marie Bonaparte;MEXICAINE, LA;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;MEXICAINE, LA;Wyse, Marie Bonaparte
+14;Clan Des Otori I, le Silence du Rossignol - Lian Hearn.epub;Hearn, Lian;Clan Des Otori I, le Silence du Rossignol;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Clan Des Otori I, le Silence du Rossignol;Hearn, Lian
+15;Sand,George [-57b] Consuelo - Tome 2 (1843) french.zzz.epub;Consuelo, Tome III (Dodo Press);Sand, George;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Sand, George;Consuelo, Tome III (Dodo Press)
+16;Guépard, Le - Tomasi Di Lampedusa, Giuseppe.epub;Guépard, Le;Tomasi Di Lampedusa, Giuseppe;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Tomasi Di Lampedusa, Giuseppe;Guépard, Le
+17;Compère, vous mentez !_. - Noël Devaulx.epub;Devaulx, Noël;Compère, vous mentez !_.;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Compère, vous mentez !_.;Devaulx, Noël
+18;Vilnius, Londres, Paris - Kourkov, Andrei.epub;Vilnius, Londres, Paris;Kourkov, Andrei;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Kourkov, Andrei;Vilnius, Londres, Paris
+19;VICOMTE DE BRAGELONNE - Tome 1, LE - Alexandre Dumas.epub;Alexandre Dumas;Tome 1, LE;;80;PROBABLE;Chiffres dans AUTEUR | Mots-clés de titre dans AUTEUR;Tome 1, LE;Alexandre Dumas
+20;Capitalisme, la chute, et ensuite (French Edition) - Michel Cornillon.epub;Cornillon, Michel;Capitalisme, la chute, et ensuite (French Edition);;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Capitalisme, la chute, et ensuite (French Edition);Cornillon, Michel
+21;47 Rônins, Les - Osaragi, Jirô.epub;Rônins, Les;Osaragi, Jirô;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Osaragi, Jirô;Rônins, Les
+22;Jacq,Christian [-19] Toutânkhamon, L'ultime secret (2008) french.zzz.epub;Toutânkhamon, L'ultime secret;Jacq,Christian;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Jacq,Christian;Toutânkhamon, L'ultime secret
+23;Décadence, Vie et mort du judéo-christianisme - Onfray, Michel.epub;Décadence, Vie et mort du judéo-christianisme;Onfray, Michel;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Onfray, Michel;Décadence, Vie et mort du judéo-christianisme
+24;Absalon, Absalon ! - Faulkner, William.epub;Absalon, Absalon !;Faulkner, William;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Faulkner, William;Absalon, Absalon !
+25;Femmes, Les - Alphonse Karr.epub;Femmes, Les;Karr, Alphonse;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Karr, Alphonse;Femmes, Les
+26;Fouché,Joseph [] Mémoires de Joseph Fouché, ministre de la police - Tome 1 (1824) french.zzz.epub;Fouché,Joseph;Mémoires de Joseph Fouché, ministre de la police - Tome 1;;80;PROBABLE;Chiffres dans AUTEUR | Mots-clés de titre dans AUTEUR;Mémoires de Joseph Fouché, ministre de la police - Tome 1;Fouché,Joseph
+27;Ce que nous voulons_ et autres textes anarchistese Machinisme, La Panacée-Révolution) - Jean Grave.epub;Grave, Jean;Ce que nous voulons_ et autres textes anarchistese Machinisme, La Panacée-Révolution);;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Ce que nous voulons_ et autres textes anarchistese Machinisme, La Panacée-Révolution);Grave, Jean
+28;Du boulier à la révolution numérique, Algorithmes et informatique (2010) - Vicenç Torra.epub;Torra, Vicenç;Du boulier à la révolution numérique, Algorithmes et informatique;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Du boulier à la révolution numérique, Algorithmes et informatique;Torra, Vicenç
+29;Sand,George [-57c] Consuelo - Tome 3 (1843) french.zzz.epub;Consuelo, Tome III (Dodo Press);Sand, George;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Sand, George;Consuelo, Tome III (Dodo Press)
+30;Si Longue Lettre, Une - Mariama Bâ.epub;Bâ, Mariama;Si Longue Lettre, Une;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Si Longue Lettre, Une;Bâ, Mariama
+31;Historiettes, Contes et Fabliaux - Fransız Canra.epub;Historiettes, Contes et Fabliaux;Canra, Fransız;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Canra, Fransız;Historiettes, Contes et Fabliaux
+32;Bravo, Oncle Fred ! - Wodehouse,P.G_.epub;Bravo, Oncle Fred !;Wodehouse,P.G_;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Wodehouse,P.G_;Bravo, Oncle Fred !
+33;Alexandre Dumas - Oeuvres Complètes, Partie I _ Romans et Nouvelles LCI_4d - Alexandre Dumas.epub;Alexandre Dumas;Oeuvres Complètes, Partie I _ Romans et Nouvelles LCI_4d;;80;PROBABLE;Chiffres dans AUTEUR | Mots-clés de titre dans AUTEUR;Oeuvres Complètes, Partie I _ Romans et Nouvelles LCI_4d;Alexandre Dumas
+34;Fissure, La - Didierlaurent, Jean-Paul.epub;Fissure, La;Didierlaurent, Jean-Paul;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Didierlaurent, Jean-Paul;Fissure, La
+35;Je Suis Comme Vous, Unique ! - Astrid el Chami.epub;Chami, Astrid el;Je Suis Comme Vous, Unique !;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Je Suis Comme Vous, Unique !;Chami, Astrid el
+36;Péan,Pierre [-17] L'extrémiste, François Genoud, de Hitler à Carlos (1996) french.zzz.epub;L'extrémiste, François Genoud, de Hitler à Carlos;Péan,Pierre;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Péan,Pierre;L'extrémiste, François Genoud, de Hitler à Carlos
+37;Bêtes, Les - Gascar, Pierre.epub;Bêtes, Les;Gascar, Pierre;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Gascar, Pierre;Bêtes, Les
+38;Adieu, mon livre ! - Kenzaburô Ôe.epub;Ôe, Kenzaburô;Adieu, mon livre !;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Adieu, mon livre !;Ôe, Kenzaburô
+39;Roi tout nu, Un - Albert Adès.epub;Adès, Albert;Roi tout nu, Un;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Roi tout nu, Un;Adès, Albert
+40;Dénonciateurs, Les - Vasquez, Juan Gabriel.epub;Dénonciateurs, Les;Vasquez, Juan Gabriel;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Vasquez, Juan Gabriel;Dénonciateurs, Les
+41;Étoiles à l'Infini, Des - Blanche Monah.epub;Monah, Blanche;Étoiles à l'Infini, Des;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Étoiles à l'Infini, Des;Monah, Blanche
+42;Christie,Agatha [N-06] Allo, Hercule Poirot... - 6 nouvelles (1971) french.Alex.epub;Allo, Hercule Poirot... - 6 nouvelles;Christie,Agatha;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Christie,Agatha;Allo, Hercule Poirot... - 6 nouvelles
+43;courteline georges - Bibebook.epub;Madelon, Margot & Cie;Courteline, Georges;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Courteline, Georges;Madelon, Margot & Cie
+44;Bonjour, Jeeves - Wodehouse,P.G_.epub;Bonjour, Jeeves;Wodehouse,P.G_;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Wodehouse,P.G_;Bonjour, Jeeves
+45;Heather, par-dessus tout - Matthew Weiner.epub;Weiner, Matthew;Heather, par-dessus tout;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Heather, par-dessus tout;Weiner, Matthew
+46;Ce soir, on regardera les étoiles… - Alì Ehsani.epub;Ehsani, Alì;Ce soir, on regardera les étoiles…;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Ce soir, on regardera les étoiles…;Ehsani, Alì
+47;Marécages, Les - Lansdale,Joe R_.epub;Marécages, Les;Lansdale,Joe R_;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Lansdale,Joe R_;Marécages, Les
+48;Mon frère, le Che - Guevara, Juan Martin & Vincent, Armelle.epub;Guevara, Juan Martin & Vincent, Armelle;Mon frère, le Che;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Mon frère, le Che;Guevara, Juan Martin & Vincent, Armelle
+49;Zahir, Le - Coelho, Paulo.epub;Zahir, Le;Coelho, Paulo;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Coelho, Paulo;Zahir, Le
+50;Mina Loy, éperdument_ récit littéraire - Mathieu Terence.epub;Terence, Mathieu;Mina Loy, éperdument_ récit littéraire;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Mina Loy, éperdument_ récit littéraire;Terence, Mathieu
+51;Fouché,Joseph [] Mémoires de Joseph Fouché, ministre de la police - Tome 2 (1824) french.zzz.epub;Fouché,Joseph;Mémoires de Joseph Fouché, ministre de la police - Tome 2;;80;PROBABLE;Chiffres dans AUTEUR | Mots-clés de titre dans AUTEUR;Mémoires de Joseph Fouché, ministre de la police - Tome 2;Fouché,Joseph
+52;Homme-dé, L' - Luke Rhinehart.epub;Homme-dé, L';Rhinehart, Luke;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Rhinehart, Luke;Homme-dé, L'
+53;Femme, Une - Annie Ernaux.epub;Femme, Une;Ernaux, Annie;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Ernaux, Annie;Femme, Une
+54;Lassie, chien fidèle - Eric Knight.epub;Knight, Eric;Lassie, chien fidèle;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Lassie, chien fidèle;Knight, Eric
+55;VICOMTE DE BRAGELONNE - Tome 2, LE - Alexandre Dumas.epub;Alexandre Dumas;Tome 2, LE;;80;PROBABLE;Chiffres dans AUTEUR | Mots-clés de titre dans AUTEUR;Tome 2, LE;Alexandre Dumas
+56;Quel Pétrin !_ Faute de blé, la boulangère a des idées_. (French Edition) - Céline Barré.epub;Barré, Céline;Quel Pétrin !_ Faute de blé, la boulangère a des idées_. (French Edition);;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Quel Pétrin !_ Faute de blé, la boulangère a des idées_. (French Edition);Barré, Céline
+57;"Oeuvres Illustrees. 10, Le Capitaine Paul; Murat; Le Kent (Ed.1897) - Alexandre Dumas.epub";Alexandre Dumas;"Oeuvres Illustrees. 10, Le Capitaine Paul; Murat; Le Kent (Ed.1897)";;80;PROBABLE;Chiffres dans AUTEUR | Mots-clés de titre dans AUTEUR;"Oeuvres Illustrees. 10, Le Capitaine Paul; Murat; Le Kent (Ed.1897)";Alexandre Dumas
+58;PATRIOTISME PHYSIOLIGIQUE OU NATUREL, LE - Michel Bakounine.epub;Bakounine, Michel;PATRIOTISME PHYSIOLIGIQUE OU NATUREL, LE;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;PATRIOTISME PHYSIOLIGIQUE OU NATUREL, LE;Bakounine, Michel
+59;Demi-pensionnaire, La - Cauwelaert, Didier Van.epub;Demi-pensionnaire, La;Cauwelaert, Didier Van;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Cauwelaert, Didier Van;Demi-pensionnaire, La
+60;Blosse, La Tentation de l'aventure - Werner Renfer.epub;Blosse, La Tentation de l'aventure;Renfer, Werner;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Renfer, Werner;Blosse, La Tentation de l'aventure
+61;Succession, La - Dubois,Jean-Paul.epub;Succession, La;Dubois,Jean-Paul;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Dubois,Jean-Paul;Succession, La
+62;Gens extraordinaires, Des - Joanna Russ.epub;Russ, Joanna;Gens extraordinaires, Des;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Gens extraordinaires, Des;Russ, Joanna
+63;Récif, Le - Bosco, Henri.epub;Récif, Le;Bosco, Henri;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Bosco, Henri;Récif, Le
+64;Sand,George [-57a] Consuelo - Tome 1 (1843) french.zzz.epub;Consuelo, Tome I (Dodo Press);Sand, George;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Sand, George;Consuelo, Tome I (Dodo Press)
+65;Vengeance Anglaise, Une - Pierre Zaccone.epub;Zaccone, Pierre;Vengeance Anglaise, Une;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Vengeance Anglaise, Une;Zaccone, Pierre
+66;Incurables, Les - Bassoff,Jon.epub;Incurables, Les;Bassoff,Jon;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Bassoff,Jon;Incurables, Les
+67;Soudain, seuls - Isabelle Autissier.epub;Autissier, Isabelle;Soudain, seuls;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Soudain, seuls;Autissier, Isabelle
+68;Marilyn, dernières séances - Michel Schneider.epub;Schneider, Michel;Marilyn, dernières séances;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Marilyn, dernières séances;Schneider, Michel
+69;Serpe, La - Jaenada,Philippe.epub;Serpe, La;Jaenada,Philippe;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Jaenada,Philippe;Serpe, La
+70;Républicains, Les - Guilbert,Cecile.epub;Républicains, Les;Guilbert,Cecile;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Guilbert,Cecile;Républicains, Les
+71;Jim Harrison, boxeur - Arthur Conan Doyle.epub;Doyle, Arthur Conan;Jim Harrison, boxeur;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Jim Harrison, boxeur;Doyle, Arthur Conan
+72;Facture, La - Karlsson, Jonas.epub;Facture, La;Karlsson, Jonas;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Karlsson, Jonas;Facture, La
+73;Femelles, Les - Oates, Joyce Carol.epub;Femelles, Les;Oates, Joyce Carol;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Oates, Joyce Carol;Femelles, Les
+74;Contemplations, Les - Victor Hugo.epub;Contemplations, Les;Hugo, Victor;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Hugo, Victor;Contemplations, Les
+75;UTOPIES BALZACIENNES. Tome 2, Le curé de village - Honoré de Balzac.epub;de Balzac, Honoré;UTOPIES BALZACIENNES. Tome 2, Le curé de village;;80;PROBABLE;Chiffres dans AUTEUR | Mots-clés de titre dans AUTEUR;UTOPIES BALZACIENNES. Tome 2, Le curé de village;de Balzac, Honoré
+76;Bourse, La - Balzac, Honoré de.epub;Bourse, La;Balzac, Honoré de;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Balzac, Honoré de;Bourse, La
+77;Petite Robe De Fête, Une - Christian Bobin.epub;Bobin, Christian;Petite Robe De Fête, Une;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Petite Robe De Fête, Une;Bobin, Christian
+78;Cybériade, La - Lem, Stanislas.epub;Cybériade, La;Lem, Stanislas;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Lem, Stanislas;Cybériade, La
+79;blocus - Le capitaine rochart, Le - Erckmann-Chatrian.epub;Erckmann-Chatrian;Le capitaine rochart, Le;;80;PROBABLE;Auteur n'est pas au format standard | Article défini en fin d'AUTEUR;Le capitaine rochart, Le;Erckmann-Chatrian
+80;Secrète, La - Abad, Hector.epub;Secrète, La;Abad, Hector;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Abad, Hector;Secrète, La
+81;Rebelle, La - Montaldi, Valeria.epub;Rebelle, La;Montaldi, Valeria;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Montaldi, Valeria;Rebelle, La
+82;Conspiration des milliardaires - Tome IV - La revanche du Vieux Monde, La - Gustave Le Rouge.epub;Le Rouge, Gustave;La revanche du Vieux Monde, La;;80;PROBABLE;Auteur n'est pas au format standard | Article défini en fin d'AUTEUR;La revanche du Vieux Monde, La;Le Rouge, Gustave
+83;Amants, heureux amants… - Valery Larbaud.epub;Larbaud, Valery;Amants, heureux amants…;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Amants, heureux amants…;Larbaud, Valery
+84;Sortie parc, gare d'Ueno - Yu Miri.epub;Miri, Yu;Sortie parc, gare d'Ueno;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Sortie parc, gare d'Ueno;Miri, Yu
+85;Le Rouge,Gustave [] Todd Marvel, détective milliardaire - Tome 2 (1924) french.zzz.epub;Le Rouge,Gustave [] Todd Marvel, détective milliardaire;french.zzz, Tome 2;;80;PROBABLE;Chiffres dans AUTEUR | Mots-clés de titre dans AUTEUR;french.zzz, Tome 2;Le Rouge,Gustave [] Todd Marvel, détective milliardaire
+86;Le Rouge,Gustave [] Todd Marvel, détective milliardaire - Tome 1 (1923) french.feed.epub;Le Rouge,Gustave [] Todd Marvel, détective milliardaire;french.feed, Tome 1;;80;PROBABLE;Chiffres dans AUTEUR | Mots-clés de titre dans AUTEUR;french.feed, Tome 1;Le Rouge,Gustave [] Todd Marvel, détective milliardaire
+87;VICOMTE DE BRAGELONNE - Tome 4, LE - Alexandre Dumas.epub;Alexandre Dumas;Tome 4, LE;;80;PROBABLE;Chiffres dans AUTEUR | Mots-clés de titre dans AUTEUR;Tome 4, LE;Alexandre Dumas
+88;Maladie, De La - Woolf, Virginia.epub;Maladie, De La;Woolf, Virginia;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Woolf, Virginia;Maladie, De La
+89;Puits, Le - Repila, Iván.epub;Puits, Le;Repila, Iván;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Repila, Iván;Puits, Le
+90;VICOMTE DE BRAGELONNE - Tome 3, LE - Alexandre Dumas.epub;Alexandre Dumas;Tome 3, LE;;80;PROBABLE;Chiffres dans AUTEUR | Mots-clés de titre dans AUTEUR;Tome 3, LE;Alexandre Dumas
+91;Écritures, Les - Cavanna, François.epub;Écritures, Les;Cavanna, François;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Cavanna, François;Écritures, Les
+92;CHAMPIONS, RECORDS ET DÉFAITES - Louis Hémon.epub;Hémon, Louis;CHAMPIONS, RECORDS ET DÉFAITES;;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;CHAMPIONS, RECORDS ET DÉFAITES;Hémon, Louis
+93;légende des quatre soldats (Tome 4) - Le Revenant, La - Elizabeth Hoyt.epub;Elizabeth Hoyt;Le Revenant, La;x;80;PROBABLE;Auteur n'est pas au format standard | Article défini en fin d'AUTEUR;Le Revenant, La;Elizabeth Hoyt
+94;Le Rouge,Gustave [] Todd Marvel, détective milliardaire - Tome 2 (1924) french.feed.epub;Le Rouge,Gustave [] Todd Marvel, détective milliardaire;french.feed, Tome 2;;80;PROBABLE;Chiffres dans AUTEUR | Mots-clés de titre dans AUTEUR;french.feed, Tome 2;Le Rouge,Gustave [] Todd Marvel, détective milliardaire
+95;invasion ou le fou yégof - Le passage des russes, L' - Erckmann-Chatrian.epub;Erckmann-Chatrian;Le passage des russes, L';;80;PROBABLE;Auteur n'est pas au format standard | Article défini en fin d'AUTEUR;Le passage des russes, L';Erckmann-Chatrian
+96;Obscurité, L' - Jaccottet, Philippe.epub;Obscurité, L';Jaccottet, Philippe;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Jaccottet, Philippe;Obscurité, L'
+97;Conspiration des milliardaires - Tome III - Le Régiment des hypnotiseurs, La - Gustave Le Rouge.epub;Le Rouge, Gustave;Le Régiment des hypnotiseurs, La;;80;PROBABLE;Auteur n'est pas au format standard | Article défini en fin d'AUTEUR;Le Régiment des hypnotiseurs, La;Le Rouge, Gustave
+98;Aime-moi, Casanova - Chainas, Antoine.epub;Aime-moi, Casanova;Chainas, Antoine;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Chainas, Antoine;Aime-moi, Casanova
+99;1917 - Manifeste au peuple ukrainien et ultimatum à la Rada d'Ukraine - Lenine.epub;Lenine, L'inventeur du totalitarisme;Courtois, Stéphane;x;80;PROBABLE;Format 'Nom, Prénom' dans le TITRE;Courtois, Stéphane;Lenine, L'inventeur du totalitarisme

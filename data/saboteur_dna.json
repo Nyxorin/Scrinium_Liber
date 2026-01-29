@@ -1,0 +1,8 @@
+{
+  "apostrophe_chaos": 9.9,
+  "camel_case": 0.20385316293869837,
+  "digit_contamination": 8.1,
+  "visual_noise": 9.0,
+  "structural_noise": 9.801,
+  "ligature_destruction": 0.12496051060703534
+}
