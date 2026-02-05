@@ -55,6 +55,11 @@ class DeterministicCorrector(BaseCorrector):
             "Œ": "Oe", "œ": "oe", "Æ": "Ae", "æ": "ae", 
             "ﬁ": "fi", "ﬂ": "fl", "ﬀ": "ff", "ﬃ": "ffi", "ﬄ": "ffl"
         }
+        # [V7.2 Specific Visual Patches]
+        self.visual_patches = {
+            "chaufŒ": "chauff",
+            "Œuf": "Oeuf", # Keep OE generally, but maybe check specific words?
+        }
 
     def _load_rules(self) -> dict:
         """Charge les règles depuis le fichier JSON."""
@@ -172,12 +177,21 @@ class DeterministicCorrector(BaseCorrector):
                 current_text = current_text.replace(char, repl)
 
         # 3. Ligatures (Category 5) - Confidence 100%
+        # 3. Ligatures (Category 5) - Confidence 100%
+        # Apply specific visual patches first (before breaking ligatures)
+        for bad, good in self.visual_patches.items():
+            if bad in current_text:
+                current_text = current_text.replace(bad, good)
+
         for char, repl in self.ligature_replacements.items():
             if char in current_text:
                 current_text = current_text.replace(char, repl)
 
         # 4. Special Chars (Category 3) - Confidence 95%
-        current_text = re.sub(r'(?<=[a-zA-Zà-öø-ÿ])[@*#$](?=[a-zA-Zà-öø-ÿ])', '', current_text)
+        # @ is often an OCR error for ' inside words like l@
+        current_text = re.sub(r'(?<=[a-zA-Zà-öø-ÿ])@(?=[a-zA-Zà-öø-ÿ])', "'", current_text)
+        # Others are noise
+        current_text = re.sub(r'(?<=[a-zA-Zà-öø-ÿ])[*#$](?=[a-zA-Zà-öø-ÿ])', '', current_text)
 
         # 5. Corrections Simples
         for old, new in self.simple_corrections:

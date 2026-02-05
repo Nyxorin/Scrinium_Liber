@@ -54,6 +54,14 @@ htmlcov/
 _archive/
 archive_nettoyage_*/
 
-# Archives du projet
-_archive/
-archive_nettoyage_*/
+# Modèles LLM (trop lourds pour Git)
+models/*.gguf
+models/*.bin
+
+# Données locales
+data/
+*.csv
+
+# Sandbox External Tool
+tools/SandboxFusion/
+

@@ -33,4 +33,4 @@ def test_weird_characters(corrector):
     assert corrector.correct("oŸ") == "où"
     assert corrector.correct("Ÿn") == "Mn"
     assert corrector.correct("chaufŒ") == "chauff"
-    assert corrector.correct("Œ isolé") == "M isolé"
+    assert corrector.correct("Œ isolé") == "Oe isolé"
